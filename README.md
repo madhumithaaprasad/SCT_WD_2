@@ -17,3 +17,4 @@ An interactive and user-friendly stopwatch web app with features to start, pause
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
 ![image](https://github.com/user-attachments/assets/d44a417e-53bd-49ba-a475-fbcf53125958)
+
