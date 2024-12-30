@@ -11,7 +11,7 @@ body {
   
   .stopwatch-container {
     text-align: center;
-    background: #ffffff;
+    background: #c775ecc3;
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
@@ -47,7 +47,7 @@ body {
     border-radius: 25px;
     cursor: pointer;
     background: linear-gradient(135deg, #ff80ab, #ff4081);
-    color: white;
+    color: rgb(242, 168, 255);
     transition: background 0.3s ease, transform 0.2s ease;
   }
   
@@ -91,7 +91,8 @@ body {
     background: #f50057;
   }
 
-/* Animated Background */
+/*animated background*/
+
 body {
     animation: gradientBG 8s infinite alternate;
   }
@@ -107,4 +108,5 @@ body {
       background: linear-gradient(135deg, #ffccbc, #f8bbd0);
     }
   }
+  
   
