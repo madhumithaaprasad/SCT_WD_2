@@ -26,7 +26,7 @@ An interactive and user-friendly stopwatch web app with features to start, pause
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/Stopwatch.git
+   git clone https://github.com/madhumithaaprasad/SCT_WD_2.git
 
 
 ![image](https://github.com/user-attachments/assets/46e32ba9-2edc-4abe-8dcb-99b81cb4d0e3)
