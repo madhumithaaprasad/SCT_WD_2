@@ -1,0 +1,110 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url('images/background.jpg') no-repeat center center/cover;
+  color: #fff;
+}
+
+.stopwatch-container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.75); 
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  max-width: 400px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-container button {
+  margin: 10px 5px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #2D3748; 
+  color: #ffffff;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button-container button:hover {
+  background: #1A202C;
+  transform: translateY(-2px);
+}
+
+.button-container button:active {
+  transform: translateY(1px);
+}
+
+.lap-container ul li {
+  background: rgba(0, 0, 0, 0.6);
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #000; 
+  font-family: 'Poppins', sans-serif;
+}
+
+.timer-display {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+  margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.2s linear;
+}
+
+.controls button {
+  margin: 10px 5px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #444;
+  color: #fff;
+  transition: background 0.3s ease, box-shadow 0.2s ease;
+}
+
+.controls button:hover {
+  background: #666;
+}
+
+.controls button:active {
+  background: #777;
+}
+
+.laps h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #000; 
+}
+
+.laps ul {
+  list-style: none;
+  padding: 0;
+}
+
+.laps ul li {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff; 
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold; 
+  text-align: center;
+}
