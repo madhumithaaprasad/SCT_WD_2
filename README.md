@@ -1,6 +1,6 @@
-# Stopwatch Web Application
+# NoirTime
 
-An interactive and user-friendly stopwatch web app with features to start, pause, reset, and track lap times. The application provides a clean and minimalistic interface with a black-and-white clock background theme, making it suitable for any device.
+NoirTime is an interactive and user-friendly stopwatch web app with features to start, pause, reset, and track lap times. The application provides a clean and minimalistic interface with a black-and-white clock background theme, making it suitable for any device.
 
 ## Features
 - **Start/Pause**: Begin or pause the stopwatch with a single button.
